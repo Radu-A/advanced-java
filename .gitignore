@@ -1,0 +1,19 @@
+# Archivos compilados (Binarios)
+*.class
+*.jar
+*.war
+bin/
+
+# Archivos de configuración de Eclipse (opcional, pero recomendado si trabajas solo)
+.settings/
+.metadata/
+.project
+.classpath
+
+# Logs y archivos temporales
+*.log
+tmp/
+
+# Carpetas de construcción de Maven/Gradle (por si acaso los usas luego)
+target/
+build/
