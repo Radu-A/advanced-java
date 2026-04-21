@@ -22,7 +22,8 @@ public class Main {
 		service.markAsCompleted(t3.getId());
 		System.out.println(service.getPendingTasks().toString());
 		
-		service.
+		System.out.println(service.getById(t2.getId()));
+		System.out.println(service.getById("kk6969"));
 	}
 
 }
